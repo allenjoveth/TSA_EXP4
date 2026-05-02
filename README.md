@@ -9,10 +9,8 @@ To implement ARMA model in python.
 1. Import necessary libraries.
 2. Set up matplotlib settings for figure size.
 3. Define an ARMA(1,1) process with coefficients ar1 and ma1, and generate a sample of 1000
-
 data points using the ArmaProcess class. Plot the generated time series and set the title and x-
 axis limits.
-
 4. Display the autocorrelation and partial autocorrelation plots for the ARMA(1,1) process using
 plot_acf and plot_pacf.
 5. Define an ARMA(2,2) process with coefficients ar2 and ma2, and generate a sample of 10000
@@ -156,11 +154,11 @@ plt.show()
 <img width="1011" height="533" alt="image" src="https://github.com/user-attachments/assets/3cc6acf9-1121-4cdd-b492-e129dd7acbfc" />
 
 #### Partial Autocorrelation
-
-<img width="1012" height="535" alt="image" src="https://github.com/user-attachments/assets/9b9cb2c6-38f5-41a5-a988-28dfe3fe0f34" />
-
-#### Autocorrelation
 <img width="1028" height="522" alt="image" src="https://github.com/user-attachments/assets/191997b3-d36a-44e1-9356-85958c0f7af0" />
 
-RESULT:
+
+#### Autocorrelation
+<img width="1012" height="535" alt="image" src="https://github.com/user-attachments/assets/9b9cb2c6-38f5-41a5-a988-28dfe3fe0f34" />
+
+### RESULT:
 Thus, a python program is created to fir ARMA Model successfully.
